@@ -18,7 +18,8 @@ elif moonpydir.startswith('/home/cal'):
 	central_data_dir = '/home/cal/ateachey/Documents/Central_Data/'
 elif moonpydir.startswith('/Users/hal9000'):
 	central_data_dir = '/Users/hal9000/Documents/Central_Data'
-#central_data_dir = '/Users/hal9000/Documents/Central_Data/'
+else:
+	central_data_dir = '~/Work/MoonPy/Central_Data/'
 
 
 #### THIS IS A MAJOR REWORKING OF THE ORIGINAL mp_lcfind.py (eventually mp_lcfind_deprecated.py).

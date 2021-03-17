@@ -90,7 +90,7 @@ def pymn_loglike_batman(cube, ndim, nparams):
 
 
 #def mp_multinest(times, fluxes, errors, param_labels, param_prior_forms, param_limit_tuple, nlive, targetID, modelcode="LUNA", show_plot='y'):
-def mp_multinest(times, fluxes, errors, param_dict, nlive, targetID, model="M", nparams=14, modelcode='LUNA', show_plot='y'):
+def mp_multinest(times, fluxes, errors, param_dict, nlive, targetID, model="M", nparams=14, modelcode='batman', show_plot='y'):
 	import pymultinest
 	### this function will start PyMultiNest!
 

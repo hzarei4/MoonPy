@@ -49,10 +49,11 @@ elif 'umbriel' in hostname:
 	#moonpydir = '/home/cal/ateachey/Documents/MoonPy'
 	central_data_dir = '/home/cal/ateachey/Documents/Central_Data/'
 else:
-	#moonpydir = input('Please specify the MoonPy directory (or hard-code this into moonpy.py): ')
+	moonpydir = '~/Work/MoonPy'#input('Please specify the MoonPy directory (or hard-code this into moonpy.py): ')
 	#central_data_dir = input("Please specify a 'central data' directory (or hard-code this into moonpy.py): ")
 	### store central_data within MoonPy directory
 	if os.path.exists(moonpydir+'/Central_Data'):
+		print("Exsists")
 		pass
 	else:
 		os.system('mkdir '+moonpydir+'/Central_Data')
